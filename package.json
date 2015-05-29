@@ -1,6 +1,6 @@
 {
   "name": "mocha-tree-json-reporter",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "tres json reporter for mocha",
   "main": "index.js",
   "directories": "./lib",
@@ -37,6 +37,6 @@
   ],
   "devDependencies": {
     "grunt": "^0.4.5",
-    "grunt-bump": "^0.3.1"
+    "grunt-release": "^0.12.0"
   }
 }
