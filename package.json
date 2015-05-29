@@ -1,0 +1,42 @@
+{
+  "name": "mocha-tree-json-reporter",
+  "version": "0.0.2",
+  "description": "tres json reporter for mocha",
+  "main": "index.js",
+  "directories": "./lib",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbmaxx/mocha-tree-json-reporter.git"
+  },
+  "keywords": [
+    "mocha",
+    "json",
+    "tree",
+    "reporter",
+    "jetbrains"
+  ],
+  "dependencies": {
+    "mocha": ">=1.13.0"
+  },
+  "author": {
+    "name": "Roman <sbmaxx> Rozhdestenskiy"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbmaxx/mocha-tree-json-reporter/issues"
+  },
+  "homepage": "https://github.com/sbmaxx/mocha-tree-json-reporter",
+  "maintainers": [
+    {
+      "name": "sbmaxx",
+      "email": "sbmaxx@gmail.com"
+    }
+  ],
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-bump": "^0.3.1"
+  }
+}
