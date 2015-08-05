@@ -5,11 +5,16 @@ Basically, have your project's package.json be like:
 ``` js
 {
   "devDependencies": {
-    "mocha-tree-json-reporter": ">=0.0.1"
+    "mocha-tree-json-reporter": ">=0.0.12"
   }
 }
 ```
 
 Then call mocha with:
 
-`mocha --reporter mocha-tree-json-reporter test`
+```
+mocha --reporter mocha-tree-json-reporter test > report.json
+# or
+MOCHA_JSON_OUTPUT_FILE=output.json mocha --reporter mocha-tree-json-reporter test
+```
+
