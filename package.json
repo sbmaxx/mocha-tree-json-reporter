@@ -20,8 +20,7 @@
   ],
   "dependencies": {
     "lodash": "^3.10.1",
-    "mocha": ">=1.13.0",
-    "pretty-hrtime": "^1.0.0"
+    "mocha": ">=1.13.0"
   },
   "author": {
     "name": "Roman <sbmaxx> Rozhdestenskiy"
