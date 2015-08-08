@@ -13,8 +13,6 @@ Basically, have your project's package.json be like:
 Then call mocha with:
 
 ```
-mocha --reporter mocha-tree-json-reporter test > report.json
-# or
 MOCHA_JSON_OUTPUT_FILE=output.json mocha --reporter mocha-tree-json-reporter test
 ```
 
